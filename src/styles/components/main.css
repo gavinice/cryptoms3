@@ -25,6 +25,8 @@ body.is-menu-open .menu {
 .bg::before {
   content: '';
   @apply absolute w-full h-full bg-darkbluebg bg-opacity-90;
+  background-color: #0e0e21;
+  opacity: 0.7;
 }
 
 .btn {
@@ -35,6 +37,12 @@ body.is-menu-open .menu {
   @apply transition duration-500 ease-in-out hover:bg-primary hover:text-darkbluebg hover:border-primary transform;
 }
 
+.hover-btn:hover {
+  background-color: #2ae7a8;
+  color: #0e0e21;
+  border-color: #2ae7a8;
+}
+
 .hover-white-text {
   @apply transition duration-500 ease-in-out   transform;
 }
@@ -43,8 +51,45 @@ body.is-menu-open .menu {
   @apply transition duration-500 ease-in-out hover:text-primary  transform;
 }
 
+.hover-primary-text:hover {
+  color: #2ae7a8;
+}
+
+.bg-primary {
+  background-color: #2ae7a8;
+}
+
+.border-primary {
+  border-color: #2ae7a8;
+}
+
+.text-darkbluebg {
+  color: #0e0e21;
+}
+
 .hover-white-text:hover {
   color: #303068;
+}
+
+.crypto {
+  color: #2ae7a8;
+}
+
+.intro {
+  background-color: #2ae7a8;
+  color: #0e0e21;
+}
+
+.border-preview {
+  border-color: #2ae7a8;
+}
+
+.pricing-plan {
+  background-color: #0e0e21;
+}
+
+.text-primary {
+  color: #2ae7a8;
 }
 
 .primary-btn {

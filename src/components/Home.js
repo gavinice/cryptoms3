@@ -42,10 +42,10 @@ export default () => {
               <div className="lg:flex lg:justify-between items-center">
                 <div className="mb-8 lg:text-left">
                   <div className="flex justify-center lg:justify-start">
-                    <h1 className="title lg:max-w-md mr-1 text-xl lg:text-4xl text-primary lg:mr-2 xl:text-5xl">
+                    <h1 className="crypto title lg:max-w-md mr-1 text-xl lg:text-4xl text-primary lg:mr-2 xl:text-5xl">
                       Crypto
                     </h1>
-                    <h1 className="title font-bold lg:max-w-md text-xl lg:text-4xl xl:text-5xl"> Made Simple</h1>
+                    <h1 className=" title font-bold lg:max-w-md text-xl lg:text-4xl xl:text-5xl"> Made Simple</h1>
                   </div>
                   <div className="p my-4 lg:max-w-xl lg:my-5 lg:leading-loose lg:text-md">
                     We strive to take every day people and transform them into motivated, knowledgeable and financially
@@ -59,10 +59,10 @@ export default () => {
                   </a>
                 </div>
                 <div className="video-preview-container mx-auto lg:mx-0">
-                  <div className="bg-primary text-darkbluebg rounded-t-lg uppercase font-bold font-xs p-4">
+                  <div className="intro bg-primary text-darkbluebg rounded-t-lg uppercase font-bold font-xs p-4">
                     introduction to cryptocurrency
                   </div>
-                  <div className="border-4 border-primary rounded-b-lg ">
+                  <div className="border-preview border-4 border-primary rounded-b-lg ">
                     <div className="relative">
                       <video src="assets/main.mp4" controls="true">
                         <i className="far fa-play-circle text-5xl z-10 play-btn"></i>
@@ -93,7 +93,7 @@ export default () => {
             </div>
           </div>
         </div>
-        <div className="bg-darkbluebg py-6" id="pricing">
+        <div className="pricing-plan bg-darkbluebg py-6" id="pricing">
           <div className="container  px-6 lg:max-w-7xl mx-auto text-center lg:py-14">
             <h1 className="text-primary text-3xl mb-3">Pricing Plan</h1>
             <p className="text-white my-4 lg:mb-12">
