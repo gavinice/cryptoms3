@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors')
+const colors = require('tailwindcss/colors');
 
 module.exports = {
   purge: [],
@@ -18,14 +18,8 @@ module.exports = {
 
       black: colors.black,
       white: colors.white,
-      gray: colors.coolGray,
-      red: colors.red,
-      yellow: colors.amber,
-      green: colors.emerald,
-      blue: colors.blue,
-      indigo: colors.indigo,
-      purple: colors.violet,
-      pink: colors.pink,
+      primary: colors.primary,
+      darkbluebg: colors.darkbluebg,
     },
     spacing: {
       px: '1px',
@@ -852,4 +846,4 @@ module.exports = {
     zIndex: ['responsive', 'focus-within', 'focus'],
   },
   plugins: [],
-}
+};
